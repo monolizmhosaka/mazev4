@@ -196,7 +196,7 @@ InitTileMap()
 game.splash("青小ダンジョン", "ゲームをクリアしろ！")
 music.baDing.play()
 game.showLongText("30びょう で\\nたからばこ を\\nみつけだせ！\\n", DialogLayout.Center)
-info.startCountdown(30)
+info.startCountdown(25)
 game.onUpdate(function () {
     if (mySprite.flags == SpriteFlag.Ghost) {
         if (tiles.tileIs(tiles.getTileLocation(tiles.locationXY(tiles.locationOfSprite(mySprite), tiles.XY.column), tiles.locationXY(tiles.locationOfSprite(mySprite), tiles.XY.row)), assets.tile`myTile0`)) {
