@@ -41,6 +41,36 @@ c c c c c c c c c c c c c c c a
 . . . . . . . d b e . . . . . . 
 . . . . . . . e e e . . . . . . 
 `;
+            case "image3":
+            case "Temporary asset":return img`
+. . . 6 6 6 6 6 6 6 . . . 
+. . 6 7 7 7 7 7 7 7 6 . . 
+. 6 6 7 7 7 8 7 7 7 6 6 . 
+. 6 7 7 7 8 7 8 7 7 7 6 . 
+. c 7 7 8 8 8 8 8 7 7 c . 
+. c 9 7 8 7 7 7 8 7 9 c . 
+. c 6 9 7 7 7 7 7 9 6 c . 
+c d c 6 6 6 6 6 6 6 c d c 
+c c b c c c c c c c d c c 
+. c c b b b b b b b b c . 
+. . c c c c c c c c c . . 
+. . . . . . . . . . . . . 
+`;
+            case "image4":
+            case "Temporary asset0":return img`
+. . . . . . . . . . . . . 
+. . . . 6 6 6 6 6 . . . . 
+. . 6 6 6 7 7 7 6 6 6 . . 
+. 6 6 7 7 7 8 7 7 7 6 6 . 
+. 6 7 7 7 8 7 8 7 7 7 6 . 
+. 6 7 7 8 8 8 8 8 7 7 6 . 
+. 6 9 7 8 7 7 7 8 7 9 6 . 
+c d 6 9 7 7 7 7 7 9 6 d c 
+c c d 6 6 6 6 6 6 6 d c c 
+. c c b b b b b b b b c . 
+. . c c c c c c c c c . . 
+. . . . . . . . . . . . . 
+`;
         }
         return null;
     })

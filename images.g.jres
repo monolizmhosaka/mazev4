@@ -9,6 +9,16 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage0"
     },
+    "image3": {
+        "data": "hwQNAAwAAAAAAADADAAAAABmzNzMAAAAYHaXxssMAAB2d3dpvAwAAHZ3iGe8DAAAdod4Z7wMAAB2eHhnvAwAAHaHeGe8DAAAdneIZ7wMAAB2d3dpvAwAAGB2l8a9DAAAAGbM3MwAAAAAAADADAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Temporary asset"
+    },
+    "image4": {
+        "data": "hwQNAAwAAAAAAADADAAAAABgZtbMAAAAAGZ3ac0MAAAAdneXtgwAAGB2h3i2DAAAYHeId7YMAABgh4d3tgwAAGB3iHe2DAAAYHaHeLYMAAAAdneXtgwAAABmd2m9DAAAAGBm1swAAAAAAADADAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Temporary asset0"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",

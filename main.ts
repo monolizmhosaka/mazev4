@@ -179,11 +179,11 @@ let mySprite4: Sprite = null
 let mySprite2: Sprite = null
 let picture: Image = null
 let projectile: Sprite = null
-let mySprite: Sprite = null
 let tilemap1: tiles.WorldMap = null
 let tilemap2: tiles.WorldMap = null
 let projectileDirectionY = 0
 let projectileDirectionX = 0
+let mySprite: Sprite = null
 let StopBgm = 0
 StopBgm = 0
 let SettingTest = blockSettings.readNumber("test")
@@ -193,6 +193,21 @@ if (SettingTest != 1) {
 }
 InitCharcter()
 InitTileMap()
+let btnASprite = sprites.create(img`
+    . . . 6 6 6 6 6 6 6 . . . 
+    . . 6 7 7 7 7 7 7 7 6 . . 
+    . 6 6 7 7 7 8 7 7 7 6 6 . 
+    . 6 7 7 7 8 7 8 7 7 7 6 . 
+    . c 7 7 8 8 8 8 8 7 7 c . 
+    . c 9 7 8 7 7 7 8 7 9 c . 
+    . c 6 9 7 7 7 7 7 9 6 c . 
+    c d c 6 6 6 6 6 6 6 c d c 
+    c d d c c c c c c c d d c 
+    c c b d d d d d d d d c c 
+    . c c b b b b b b b b c . 
+    . . c c c c c c c c c . . 
+    `, SpriteKind.Player)
+mySprite.setFlag(SpriteFlag.Invisible, false)
 game.splash("青小ダンジョン", "ゲームをクリアしろ！")
 music.baDing.play()
 game.showLongText("30びょう で\\nたからばこ を\\nみつけだせ！\\n", DialogLayout.Center)
